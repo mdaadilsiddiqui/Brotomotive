@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* navbar */
+#op{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+a>img {
+    height: 65px;
+    padding: 0px 15px;
+}
+
+#no {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    /* padding: 0px 10px; */
+    margin: 0px 10px;
+    position: relative; 
+}
+
+#no>a {
+    text-decoration: none;
+    color: white;
+}
+
+#no>a:hover {
+    color: white;
+}
+
+#no::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    border-bottom: 2px solid #daa905;
+    transition: .3s;
+}
+
+#no:hover::after {
+    left: 0%;
+    right: 0%;
+    color: white;
+}
+
+  
+  /* -------------------------------------------------------------------------- */
+
+/* section main content start from here */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin: 15px 0px;
+}
+
+.flex-container>div {
+
+    background-image: url("grid1.jpg");
+    background-size: cover;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    
+}
+.flex-container>div>p{
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#g2{
+    background-image: url("grid2.jpg");
+    background-size: cover;
+}
+#g3{
+    background-image: url("grid3.jpg");background-size: cover;
+}
+#g4{
+    background-image: url("grid4.jpg");
+    background-size: cover;
+}
+#g5{
+    background-image: url("grid5.jpg");
+    background-size: cover;
+}
+#g6{
+    background-image: url("grid6.jpg");
+    background-size: cover;
+}
+#g7{
+    background-image: url("grid7.jpg");
+    background-size: cover;
+}
+#g8{
+    background-image: url("grid8.jpg");
+    background-size: cover;
+}
+.flex-container>div>p>a{
+    text-decoration: none;
+    color: white;
+}
+.gra{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.flex-container>div:hover{
+    transform: translateY(-10px);
+    transition: .9s;
+    color: white;
+}
+.flex-container>div:hover .gra{
+    background: linear-gradient(to top,rgba(34,193,195,0) 0%, rgb(42, 41, 38) 90%);
+    opacity: .9;
+}
+
+
+
+
+/* footer css started from here */
+.footer {
+    padding: 0px 90px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 0.90rem;
+    /* height: 400px; */
+}
+
+.row {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.col {
+    margin-right: 30px;
+    margin-left: 0 !important;
+    padding: 15px;
+    float: left;
+}
+
+.set {
+    padding: 0px 0px 16px 0px;
+
+}
+
+/* footer all hover */
+#fot>a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6px 0px;
+    font-size: 0.90rem;
+}
+#fot>a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    border-bottom: 1px solid white;
+    transition: .6s;
+}
+
+#fot>a:hover::before {
+    right: 0;
+}
+#fott>a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6px 0px;
+    font-size: 0.90rem;
+}
+#fott>a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    border-bottom: 1px solid white;
+    transition: .6s;
+}
+
+#fott>a:hover::before {
+    right: 0;
+}
+
+
+/* end of footer copyright section */
+
+.last {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 15px 0px;
+}
+
+.containerr {
+    padding: 0px 90px;
+}
+
+.cr {
+    width: 99%;
+    display: inline-block;
+    color: #777777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.hover {
+    width: 1%;
+    color: rgb(180, 174, 174);
+    float: right;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.hover>a {
+    color: #777777;
+}
+
+.hover:hover {
+    background-color: yellow;
+}
+
+
