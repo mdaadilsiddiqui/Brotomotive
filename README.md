@@ -1,2 +1,1 @@
-# brotomotive
-My first project.
+# Brotomotive
