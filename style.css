@@ -240,9 +240,3 @@ a>img {
 .hover>a {
     color: #777777;
 }
-
-.hover:hover {
-    background-color: yellow;
-}
-
-
